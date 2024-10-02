@@ -1,0 +1,62 @@
+/* Adding a gradient background with extra color */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f); /* Gradient background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.05); /* Add a slight hover effect for interaction */
+}
+
+h1 {
+    color: #ff6b6b; /* Color for heading */
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Slight background color for input */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6b6b; /* Vibrant button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e55d5d; /* Darken the button on hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
