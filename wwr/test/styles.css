@@ -1,0 +1,7 @@
+.center-box {
+    width: 50%;           /* Set a width for the element */
+    margin: 0 auto;       /* Auto left and right margins center the element */
+    padding: 20px;        /* Optional: add padding for some spacing inside */
+    background-color: lightblue; /* Just to visualize the box */
+    text-align: center;   /* Optional: center the text inside */
+}
