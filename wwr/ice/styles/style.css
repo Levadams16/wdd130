@@ -16,7 +16,7 @@ p {
     font-size: 17px;
     color: white;
     margin-top: 5%;
-    margin-bottom: 50px;
+    margin-bottom: 2%;
 }
 h2 {
     font-size: 35px;
@@ -27,8 +27,8 @@ ol {
     font-weight: 700;
 }
 li {
-    margin-top: 30px;
-    margin-left: 480px;
+    margin-top: 2%;
+    margin-left: 32%;
 }
 img {
     width: 20%;
