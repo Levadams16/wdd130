@@ -1,10 +1,12 @@
 #content {
+    max-width: 1600px;
     margin: 0 auto;
 }
 nav a {
     text-align: center;
     color: #A43312;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -20,9 +22,13 @@ main section {
 }
 body {
     background-color: #396E94;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header {
     background-color: #E7C24F;
+    font-family: sans-serif, arial, helvetica;
 }
 nav a:hover {
     background-color: #A43312;
@@ -32,6 +38,10 @@ nav a:hover {
     background-color: gray;
     color: #A43312;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: black;
@@ -42,6 +52,8 @@ nav a:hover {
 }
 .msg {
     background-color: lightgray;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: lightgray;
@@ -49,21 +61,25 @@ footer {
 }
 .home-title {
     color: #A43312;
+    font-family: sans-serif, arial, helvetica;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #A43312;
 }
 .msg h2 {
     color:#A43312;
-}
-.msg h2 {
-    color: #A43312;
+    font-family: sans-serif, arial, helvetica;
 }
 .msg p {
     color: #A43312;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     color: #A43312;
+    padding: 25px 50px;
 }
 footer a {
     color: #A43312;
@@ -77,6 +93,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -86,4 +103,22 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.mountains {
+    margin: 100px;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.card-img {
+    border: 10px solid #A43312;
+}
+main section img {
+    box-sizing: border-box;
 }
