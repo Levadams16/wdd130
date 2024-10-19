@@ -72,6 +72,7 @@ nav a:hover {
     margin-right: auto;
     margin-top: 25px;
     width: 25%;
+    border-radius: 0px;
 }
 .market_items {
     width: 400px;
@@ -79,7 +80,6 @@ nav a:hover {
 }
 .column {
     float: left;
-    width: 20;
     padding: 5px;
     margin-left: 155px;
 }
@@ -154,4 +154,19 @@ button {
 }
 button:hover {
     background-color: #6da48f9d;
+}
+.join_discussion {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 175px;
+    background-color: #6da48f;
+    color: #fff0c2;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
 }

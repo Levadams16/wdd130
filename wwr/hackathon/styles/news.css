@@ -25,6 +25,10 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
 }
+h4 {
+    background-color: #6da48f;
+    border: solid #e56e38 2px;
+}
 nav a {
     text-align: center;
     font-size: 1.2em;
@@ -69,7 +73,7 @@ img {
     border-radius: 50%;
 }
 .elfsight-app-deea8c1f-7f82-4329-9dbc-b73765e374f2 {
-    margin-left: 8%;
+    margin-left: 40%;
 }
 .column {
     float: left;
@@ -81,5 +85,44 @@ img {
     clear: both;
 }
 .sports_logo {
-    width: 118px;
+    object-fit: contain;
+    border-radius: 0px;
+    height: 100px;
+    width: 100px;
+}
+button {
+    background-color: #e56e38;
+    color: #fff0c2;
+    font-size: 1.5em;
+    margin-left: 37.8%;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.weather {
+    margin-right: 47.5%;
+}
+.campaign {
+    margin-right: 57%;
+}
+.campaign_links {
+    margin-right: 100%;
+}
+.mating {
+    margin-right: 20%;
+}
+.campaignbutton {
+    background-color: #e56e38;
+    color: #fff0c2;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+.campaignbutton:hover {
+    background-color: #25424c;
 }
