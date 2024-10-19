@@ -9,21 +9,26 @@ header {
     background-color: #6da48f;
     width: 10000px;
 }
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 h1 {
     font-size: 75px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #e56e38;
+    text-decoration: underline;
 }
 h2 {
-    font-size: 1.2em;
+    font-size: 2.5em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 h3 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 nav a {
     text-align: center;
@@ -59,4 +64,27 @@ nav a:hover {
 }
 img {
     width: 42px;
+}
+.meme {
+    width: 400px;
+    float: left;
+    margin-right: 20px;
+}
+p {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+.joke_discussion {
+    font-size: 0.6em;
+}
+.button {
+    background-color: #e56e38;
+    color: #fff0c2;
+    font-size: 1.5em;
+    margin-left: 37.8%;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }

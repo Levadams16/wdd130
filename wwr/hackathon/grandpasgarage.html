@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandpa's Garage</title>
+    <link rel="stylesheet" href="styles/grandpasgarage.css">
+</head>
+<body>
+    <main>
+        <div id="content">
+            <header>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="index.html">
+                            <img src="images/ManCave Logo.png" alt="logo_pic">
+                        </a></li>
+                        <li><a href="grandpasgarage.html"><strong>Grandpa's Garage</strong></a></li>
+                        <li><a href="challenge.html"><strong>Weekly Challenge</strong></a></li>
+                        <li><a href="dadjokes.html"><strong>Dad Jokes</strong></a></li>
+                        <li><a href="news.html"><strong>News</strong></a></li>
+                    </ul>
+                </nav>
+            </header>
+            <img class="center" src="images/GrandpasGarage.png" alt="men standing in garage">
+            <h1>Grandpa's Garage</h1>
+            <h2>No algorithms here, just good<br>old-fashioned conversation.</h2>
+            <div class="row">
+                <div class="column">
+                    <a href="sneakers.html" target="_blank">
+                        <img class="market_items" src="images/thumbnail_Dad sneakers.jpg" alt="dad sneakers">
+                    </a>
+                </div>
+                <div class="column">
+                    <h2>or</h2>
+                </div>
+                <div class="column">
+                    <a href="sneakers.html" target="_blank">
+                        <img class="market_items" src="images/thumbnail_Dad sandals.jpg" alt="dad sandals">
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <h2 class="poll-question">
+                  Which would you wear?
+                </h2>
+                <form id="poll-form" class="poll-form">
+                    <label>
+                        <input type="radio"
+                               name="vote"
+                               value="yes"> Sneakers
+                    </label>
+                    <label>
+                        <input type="radio"
+                               name="vote"
+                               value="no"> Sandals
+                    </label>
+                    <button type="submit"
+                            class="vote-button">
+                      Vote
+                    </button>
+                </form>
+                <div id="results" class="results">
+                    <h2 class="results-title">
+                      Results
+                    </h2>
+                    <div class="results-count">
+                        <p>Sneakers: 
+                          <span id="yes-count"
+                                class="count">13
+                          </span>
+                        </p>
+                        <p>Sandals: 
+                          <span id="no-count"
+                                     class="count">21
+                          </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <script src="./script.js"></script>
+            <h2>Would you rather travel forward or backward in time?</h2>
+            <h5>It's a question that has riddled our minds for eons, would we rather go back to our ancestors and see what they were up to, or would we travel to the future to see what kind of new inventions will be necessary to have?</h5>
+            <a href="posting.html">
+                <button type="post">Join Discussion</button>
+            </a>
+            <h2>What's your parenting philosophy?</h2>
+            <h5>This is something that can change so much from neighbor to neighbor. There are so many different ways to teach your children. How would you discipline them? How would you support them? Would you encourage them to go to any sports?</h5>
+            <a href="posting.html">
+                <button type="post">Join Discussion</button>
+            </a>
+        </div>
+    </main>
+</body>
+</html>

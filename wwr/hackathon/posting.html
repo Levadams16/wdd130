@@ -13,21 +13,29 @@
                     <li><a href="index.html">
                         <img src="images/ManCave Logo.png" alt="logo_pic">
                     </a></li>
-                    <li><a href="products.html"><strong>Grandpa's Garage</strong></a></li>
+                    <li><a href="grandpasgarage.html"><strong>Grandpa's Garage</strong></a></li>
                     <li><a href="challenge.html"><strong>Weekly Challenge</strong></a></li>
                     <li><a href="dadjokes.html"><strong>Dad Jokes</strong></a></li>
+                    <li><a href="news.html"><strong>News</strong></a></li>
                 </ul>
             </nav>
         </header>
+        <h1>Post</h1>
+        <h2>Post your awesome experiences here!</h2>
+        <form id="uploadForm">
+            <label for="types">Where do you want to post?</label>
+            <div class="menu">
+                <select name="types" id="types">
+                <option value="weekly_submission">Weekly Challenge</option>
+                <option value="dad_joke">Dad Joke</option>
+                </select>
+            </div>
+                <label for="image">Select image:</label>
+                <input type="file" id="image" accept="image/*" required>
+                <label for="comment">Add a comment:</label>
+                <textarea id="comment" rows="4" placeholder="Write your comment here..." required></textarea>
+                <button type="submit">Post</button>
+        </form>
     </body>
-    <h1>Post</h1>
-    <h2>Post your awesome adventures here!</h2>
-    <form id="uploadForm">
-        <label for="image">Select image:</label>
-        <input type="file" id="image" accept="image/*" required>
-        <label for="comment">Add a comment:</label>
-        <textarea id="comment" rows="4" placeholder="Write your comment here..." required></textarea>
-        <button type="submit">Post</button>
-    </form>
     <script src="script.js"></script>
 </html>

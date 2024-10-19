@@ -15,6 +15,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: #e56e38;
+    text-decoration: underline;
 }
 h2 {
     font-size: 1.2em;
@@ -110,4 +111,9 @@ button:hover {
 .post p {
     margin: 0;
     color: #555;
+}
+.menu {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
