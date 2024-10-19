@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Man Cave</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <title>Posting</title>
+    <link rel="stylesheet" href="styles/posting.css">
 </head>
-<body>
-    <div id="content">
+    <body>
         <header>
             <nav class="navbar">
                 <ul>
@@ -20,9 +19,15 @@
                 </ul>
             </nav>
         </header>
-        <img class="center" src="images/ManCave Logo.png" alt="logo_pic">
-        <h1>Man Cave </h1>
-        <h2>The social media site for all the dads who never understand the kids' lingo!</h2>
-    </div>
-</body>
+    </body>
+    <h1>Post</h1>
+    <h2>Post your awesome adventures here!</h2>
+    <form id="uploadForm">
+        <label for="image">Select image:</label>
+        <input type="file" id="image" accept="image/*" required>
+        <label for="comment">Add a comment:</label>
+        <textarea id="comment" rows="4" placeholder="Write your comment here..." required></textarea>
+        <button type="submit">Post</button>
+    </form>
+    <script src="script.js"></script>
 </html>
