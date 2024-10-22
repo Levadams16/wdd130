@@ -9,20 +9,27 @@ body {
     background-color: aquamarine;
 }
 .split-left {
-    background-color: aliceblue;
+    background-color: white;
+    z-index: 0;
 }
 .split-right {
-    background-color: aqua;
+    background-color: gray;
+    z-index: 2;
 }
 img {
     grid-row-start: 1;
     grid-row-end: 3;
+    z-index: -1;
+    position:absolute;
+    left: px;
+    top: .1px;
+    width: 53%;
 }
 h1 {
-    align-self: center;
     text-align: center;
-    font-size: 12em;
+    font-size: 15em;
     z-index: 1;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .split-left h1 {
     grid-row-start: 1;
@@ -31,5 +38,13 @@ h1 {
 h2 {
     align-self: center;
     text-align: center;
-    font-size: 9em;
+    font-size: 8em;
+    color: rgb(149, 0, 0);
+}
+.split-bottom-left {
+    background-color: white;
+}
+.split-bottom-right {
+    background-color: gray;
+    z-index: 1;
 }
