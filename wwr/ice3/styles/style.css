@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.centered {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px;
+    background-color: aquamarine;
+}
+.split-left {
+    background-color: aliceblue;
+}
+.split-right {
+    background-color: aqua;
+}
+img {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+h1 {
+    align-self: center;
+    text-align: center;
+    font-size: 12em;
+    z-index: 1;
+}
+.split-left h1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+h2 {
+    align-self: center;
+    text-align: center;
+    font-size: 9em;
+}
