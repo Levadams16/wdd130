@@ -50,25 +50,20 @@ nav a {
     margin-left: 50px;
     column-gap: 20px;
 }
-.grid-child-1 img {
+.grid-child-1 img, .grid-child-2 img {
     width: 600px;
 }
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 1.2em;
 }
-.paragraph {
-    margin-left: 50px;
-    margin-right: 50px;
-}
 .grid-parent-2 {
     display: grid;
     grid-template-columns: auto 800px;
     margin-left: 50px;
     column-gap: 20px;
-}
-.grid-child-2 img {
-    width: 600px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 .grid-child-3 {
     margin-right: 50px;
