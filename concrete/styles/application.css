@@ -1,7 +1,3 @@
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-}
 body {
     background-color: #FCFCFC;
     font-size: 22px;
@@ -80,4 +76,7 @@ footer {
 footer a {
     color: #FCFCFC;
     text-decoration: none;
+}
+footer .social img {
+    padding-top: 10px;
 }

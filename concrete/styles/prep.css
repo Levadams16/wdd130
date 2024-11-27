@@ -78,3 +78,6 @@ footer a {
     color: #FCFCFC;
     text-decoration: none;
 }
+footer .social img {
+    padding-top: 10px;
+}
